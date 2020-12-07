@@ -4,7 +4,7 @@ public class ternary {
 
     private int time;
 
-    public ternary (int time) {
+    public ternary(int time) {
         this.time = time;
     }
 
@@ -15,12 +15,13 @@ public class ternary {
     public void setTime(int time) {
         this.time = time;
     }
+
     public static void main(String[] args) {
-        ternary kid = new ternary (18);
+        ternary kid = new ternary(20);
 
         String securityAnswer = (kid.getTime() >= 20) ? "Можно включать мультк!" : "Мультик смотреть нельзя";
 
         System.out.println(securityAnswer);
 
     }
-    }
+}
