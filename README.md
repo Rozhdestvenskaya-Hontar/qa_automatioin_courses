@@ -1,1 +1,0 @@
-# qa_automatioin_courses
