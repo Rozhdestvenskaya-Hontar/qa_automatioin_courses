@@ -1,8 +1,0 @@
-package HomeWork6;
-
-public class Cat {
-
-    public Cat() {
-    }
-}
-
